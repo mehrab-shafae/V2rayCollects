@@ -6,7 +6,7 @@
     "concurrency":15,
     "testMode":2,
     "subscription":"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt",
-    "timeout":12,
+    "timeout":6,
     "language":"en",
     "fontSize":24,
     "theme":"rainbow",
