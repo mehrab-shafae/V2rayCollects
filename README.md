@@ -10,35 +10,55 @@ Test the speed of each free node pool on the network and the nodes shared by blo
 
 The speed measurement function is implemented in the `GitHub Actions` environment using [LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest), so there are many nodes in the United States, which cannot well represent the node availability in the domestic network environment.
 
-## Features
-- Lots of sources 😯
-- Remove all duplicate nodes 🤤
-- Providing nodes in major formats (YAML, clash, v2ray, base64) 🦋
-- No additional conversion to prevent breaking the nodes 🌿
-- Filtering best nodes by testing them and sorting them based on their average speed 🍀
+## 🚀 Usage
 
-## Recent Todos
-- [x] ~~Fix region based lite speed test (mainly EU)~~ 👀
-- [x] Fix Sort Based on the Avg Speed 👀
-- [x] Update required softwares to latest version 👀
-- [x] Fix sources that subconvertor unable to convert 👀
-- [x] Add separate files & functions for airport 👀
-- [x] Fix name (emoji+ip) for all log files 👀
-- [x] Separate sub list for airports & other nodes 👀
-- [x] Fixed clash template 👀
-- [ ] Cleanup redundant files and functions (dev Branch) 🧲
+You can use the generated subscription links directly in your favorite proxy client. Copy the URL of the desired configuration, then add it as a remote subscription in your client.
 
-## Visualizer
+### 🔹 V2Ray / Xray Subscription
 
-- Log Visualizer on Netlify 
-> if you click on any node url it will copy to clipboard
+| Output | Link |
+|---|---|
+| All nodes (Base64 subscription) | [Eternity.txt](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/Eternity.txt) |
+| Raw node list | [EternityBase](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/EternityBase) |
 
+### 🔹 Clash / Clash Meta
 
+| Output | Link |
+|---|---|
+| Clash YAML configuration | [Eternity.yml](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/Eternity.yml) |
+| Combined provider configuration | [provider-all.yml](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/update/provider/provider-all.yml) |
 
-|                  |             Link to Log              |
-|:----------------:|:-----------------------------:|
-|   Public Nodes   |   <a href="https://55292969231427515295.netlify.app/" target="_blank"><img src="https://i.ibb.co/g32RmJy/netlify.png" width="35"/></a>   |
-|     Airport      |   <a href="https://55292969231427515295.netlify.app?type=airport" target="_blank"><img src="https://i.ibb.co/g32RmJy/netlify.png" width="35"/></a>   |
+### 🔹 Merged Subscriptions
+
+| Output | Link |
+|---|---|
+| Merged Base64 subscription | [sub_merge_base64.txt](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/sub/sub_merge_base64.txt) |
+| Merged YAML configuration | [sub_merge_yaml.yml](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/sub/sub_merge_yaml.yml) |
+
+### 🔹 Protocol-Specific Subscriptions
+
+Prefer a subscription containing only a specific proxy protocol? Use the links below to import individual node lists.
+
+| Protocol | Subscription |
+|---|---|
+| VMess | [VMess](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/sub/splitted/vmess.txt) |
+| VLESS | [VLESS](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/sub/splitted/vless.txt) |
+| Trojan | [Trojan](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/sub/splitted/trojan.txt) |
+| Shadowsocks | [Shadowsocks](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/sub/splitted/ss.txt) |
+| ShadowsocksR | [ShadowsocksR](https://raw.githubusercontent.com/mehrab-shafae/V2rayCollects/master/sub/splitted/ssr.txt) |
+
+**How to use:** Copy the desired URL, add it as a remote subscription in your V2Ray/Xray-compatible client, and refresh it to fetch the latest nodes.
+
+**Note:** Protocol-specific files may be empty if no working nodes of that protocol are available. These subscriptions contain public proxy nodes, whose availability and performance are not guaranteed.
+
+### 📱 How to Use
+
+1. Copy the subscription URL for your preferred client.
+2. Open your proxy client and find **Add Subscription**, **Import from URL**, or **Remote Profile**.
+3. Paste the URL and save it.
+4. Update or refresh the subscription to download the latest configuration.
+
+**Note:** These files are updated automatically by GitHub Actions. Availability and connection speed depend on the collected nodes and their providers. Public proxy nodes may be unreliable; avoid using them for sensitive traffic.
 
 ## Instructions & Usage
 
