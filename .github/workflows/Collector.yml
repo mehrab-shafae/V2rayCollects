@@ -19,12 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
-        with:
-          node-version: "18.x"
-      - uses: bahmutov/npm-install@v1.12.1
-        with:
-          working-directory: ./utils/localserver
       - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
@@ -40,8 +34,6 @@ jobs:
           wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/download/v0.9.0/subconverter_linux64.tar.gz
           tar -zxvf subconverter.tar.gz -C ./
           chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
-          node ./utils/localserver/index.js &
-          sleep 2
           python ./utils/list_merge.py
       - name: Commit Changes
         run: |
