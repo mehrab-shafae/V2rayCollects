@@ -1,1 +1,1 @@
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Cloudflare Warp节点, server: 8.47.69.0, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 Muskingum College, server: 143.246.136.156, port: 443, type: trojan, password: humanity, sni: www.volumeroot.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.volumeroot.com}}}

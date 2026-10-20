@@ -94,10 +94,10 @@
   - {name: SG_94_0@93, server: fun-salmon.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: false}
   - {name: SG_95_0@94, server: endless-kiwi.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: false}
   - {name: TW_96_0@95, server: 60.249.14.95, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @WangCai2)5337fad:11915}}
-  - {name: UA_97_0@96, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: UA_98_0@97, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: UA_99_0@98, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: UA_100_0@99, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇦 UA_97_0@96, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇦 UA_98_0@97, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇦 UA_99_0@98, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇦 UA_100_0@99, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: US_101_0@100, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: US_102_0@101, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: US_103_0@102, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
@@ -151,10 +151,10 @@
   - {name: HK_66 ⇽中转_1@65, server: api.meituan88.com, port: 61714, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 33f313723.douyin.com}
   - {name: HK_67 ⇽中转_1@66, server: api.meituan88.com, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 87c276924.douyin.com}
   - {name: HK_68 ⇽中转_1@67, server: api.meituan88.com, port: 18566, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: 33f313723.douyin.com}
-  - {name: HK_69 ⇽中转_1@68, server: 231103.level3.sdl-sz.com, port: 2212, type: ssr, cipher: aes-256-cfb, password: dajkdkjda&dj23gsa, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11275:KWQHheqWo8, obfs-param: d300c11275.microsoft.com}
+  - {name: HK_69 ⇽中转_1@68, server: 231103.level3.sdl-sz.com, port: 2212, type: ssr, cipher: aes-256-cfb, password: "dajkdkjda&dj23gsa", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11275:KWQHheqWo8, obfs-param: d300c11275.microsoft.com}
   - {name: HK_70 ⇽中转_1@69, server: api.meituan88.com, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 665203463.douyin.com}
   - {name: HK_71 ⇽中转_1@70, server: api.meituan88.com, port: 58427, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: 33f313723.douyin.com}
-  - {name: HK_72 ⇽中转_1@71, server: 231103.level3.sdl-sz.com, port: 19970, type: ssr, cipher: aes-256-cfb, password: dajkdkjda&dj23gsa, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11275:KWQHheqWo8, obfs-param: d300c11275.microsoft.com}
+  - {name: HK_72 ⇽中转_1@71, server: 231103.level3.sdl-sz.com, port: 19970, type: ssr, cipher: aes-256-cfb, password: "dajkdkjda&dj23gsa", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11275:KWQHheqWo8, obfs-param: d300c11275.microsoft.com}
   - {name: HK_73 ⇽中转_1@72, server: api.meituan88.com, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 87c276924.douyin.com}
   - {name: HK_74 ⇽中转_1@73, server: api.meituan88.com, port: 59430, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 99e144391.douyin.com}
   - {name: HK_75 ⇽中转_1@74, server: api.meituan88.com, port: 41181, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: 665203463.douyin.com}
@@ -165,7 +165,7 @@
   - {name: HK_80 ⇽中转_1@79, server: api.meituan88.com, port: 53465, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: 87c276924.douyin.com}
   - {name: HK_81 ⇽中转_1@80, server: api.meituan88.com, port: 46736, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 33f313723.douyin.com}
   - {name: HK_82 ⇽中转_1@81, server: api.meituan88.com, port: 60213, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 665203463.douyin.com}
-  - {name: HK_83 ⇽中转_1@82, server: 231103levelx.unclemanco.com, port: 37866, type: ssr, cipher: aes-256-cfb, password: dajkdkjd2a&dj23gsa, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11275:KWQHheqWo8, obfs-param: d300c11275.microsoft.com}
+  - {name: HK_83 ⇽中转_1@82, server: 231103levelx.unclemanco.com, port: 37866, type: ssr, cipher: aes-256-cfb, password: "dajkdkjd2a&dj23gsa", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11275:KWQHheqWo8, obfs-param: d300c11275.microsoft.com}
   - {name: HK_84 ⇽中转_1@83, server: api.meituan88.com, port: 49997, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 33f313723.douyin.com}
   - {name: HK_85 ⇽中转_1@84, server: api.meituan88.com, port: 37398, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 99e144391.douyin.com}
   - {name: HK_86 ⇽中转_1@85, server: api.meituan88.com, port: 7015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: 33f313723.douyin.com}
