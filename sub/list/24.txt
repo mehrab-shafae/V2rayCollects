@@ -1,0 +1,4 @@
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.27.21.22, port: 443, type: trojan, password: humanity, sni: www.volumeroot.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.volumeroot.com}}}
+  - {name: 🇳🇿 新西兰 V2CROSS.COM, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 161.35.192.122, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}}
+  - {name: 🇳🇿 新西兰 V2CROSS.COM 2, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
