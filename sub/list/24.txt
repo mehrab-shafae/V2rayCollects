@@ -1,2 +1,2 @@
-  - {name: 🇺🇸 美国 CloudFlare节点, server: jp4.998998.best, port: 443, type: vmess, uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: nat12.9966338.xyz, network: ws, ws-opts: {path: /vvvvvvvvv, headers: {Host: nat12.9966338.xyz}}}
-  - {name: 🇳🇿 新西兰 V2CROSS.COM, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇳🇿 新西兰 V2CROSS.COM, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇬🇧 英国 伦敦DigitalOcean数据中心, server: 138.68.131.253, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}}
