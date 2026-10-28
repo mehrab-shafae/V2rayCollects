@@ -1,4 +1,6 @@
   - {name: 🇳🇿 新西兰 V2CROSS.COM, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: 🇳🇿 新西兰 V2CROSS.COM 2, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 108.162.194.134, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.128.76.242, port: 443, type: trojan, password: humanity, sni: www.trusteeforward.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.trusteeforward.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: www.visa.com.sg, port: 2096, type: trojan, password: 3aa78b49-5530-45a2-93cb-b093745824f1, sni: au4.yang-1989.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /ya87, headers: {Host: au4.yang-1989.xyz}}}
+  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: msk2.rvpn.app, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MODziWLa9qMuW-4yPa0rfw}
+  - {name: 🇳🇿 新西兰 V2CROSS.COM 3, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇳🇿 新西兰 V2CROSS.COM 4, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
